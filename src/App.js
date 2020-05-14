@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import NavigateLinks from './navigateScroll';
+import { NavItem } from 'react-bootstrap';
+import "animate.css/animate.min.css";
 import './App.css';
+import PageScroll from './pages/PageScroll';
+
+const Section = (props) => {
+  return (
+    <div className={props.className} id={props.id}>
+      {props.children}
+    </div>
+  )
+}
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavigateLinks />
+      <PageScroll/>
     </div>
   );
 }
