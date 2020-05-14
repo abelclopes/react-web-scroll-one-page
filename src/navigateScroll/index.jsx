@@ -11,10 +11,10 @@ const NavigateLinks = (props) => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="">
                     <Nav.Link href="/#home">Home</Nav.Link>
-                    <Nav.Link href="/#page2">Section 2</Nav.Link>
-                    <Nav.Link href="/#page3">Section 3</Nav.Link>
-                    <Nav.Link href="/#page4">Section 4</Nav.Link>
-                    <Nav.Link href="/#page5">Section 5</Nav.Link>
+                    <Nav.Link href="/#about">Section 2</Nav.Link>
+                    <Nav.Link href="/#contact">Section 3</Nav.Link>
+                    <Nav.Link href="/#galery">Section 4</Nav.Link>
+                    <Nav.Link href="/#blog">Section 5</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
